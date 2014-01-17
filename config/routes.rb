@@ -1,9 +1,9 @@
 Store::Application.routes.draw do
   resources :blogs
-  
+
   resources :products
 
-  root :to => "blogs#new"
+  root :to => "blogs#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
